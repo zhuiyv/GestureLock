@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlingLock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="changePwd">修改手势密码</string>
+    <string name="confirm">确认</string>
+     <string name="touxiang">头像</string>
+
+</resources>

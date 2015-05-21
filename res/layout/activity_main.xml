@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context=".MainActivity" >
+
+    <com.android.view.GestureLockView
+        android:id="@+id/gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0000" />
+
+    <Button
+        android:id="@+id/btnChangePwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gv"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#0000"
+        android:text="@string/changePwd"
+        android:textColor="#DCDCDC" />
+
+</RelativeLayout>
